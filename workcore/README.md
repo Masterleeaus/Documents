@@ -10,6 +10,7 @@ This folder stores engine-first product research, complete business-application 
 | [Titan Inspect Deep Product Design](./titan-inspect-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Pricebook Deep Product Design](./titan-pricebook-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Quotes Deep Product Design](./titan-quotes-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
+| [Titan Academy Deep Product Design](./titan-academy-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Business App Idea Generation Process](./business-app-idea-generation-process.md) | Active process | Process Documentation AI workflow | 2026-08-02 |
 
 ## Scope rules
@@ -20,11 +21,12 @@ This folder stores engine-first product research, complete business-application 
 - Every complete app must define its central records, end-to-end workflow, roles, WorkCore integration, security requirements, analytics and AUD pricing.
 - Reuse shared engines rather than copying extension implementations into multiple products.
 - Keep WorkCore as the operational authority for customers, properties, jobs, staff, schedules, invoices, payments and general tasks.
-- Specialist applications own only their bounded domains. When Titan Quotes is installed, it owns quote workspaces, immutable versions, approvals and acceptance while WorkCore stores the accepted commercial projection linked to operational work.
+- Specialist applications own only their bounded domains.
+- When Titan Quotes is installed, it owns quote workspaces, immutable versions, approvals and acceptance while WorkCore stores the accepted commercial projection linked to operational work.
+- Titan Academy owns SOPs, learning, assessments, competency decisions and skills passports; WorkCore owns people, jobs and assignments, while Titan Credential Vault will own external licences and statutory documents.
 
 ## Planned deeper design files
 
-- `titan-academy-deep-design.md`
 - `titan-configurator-deep-design.md`
 - `titan-property-twin-deep-design.md`
 - `shared-engine-architecture.md`
