@@ -8,6 +8,7 @@ This folder stores engine-first product research, complete business-application 
 |---|---|---|---|
 | [WorkCore Field and Home Service Business App Portfolio](./workcore-business-app-ideas.md) | Designed | `Extensions.zip`, `Marketing.zip` | 2026-08-02 |
 | [Titan Inspect Deep Product Design](./titan-inspect-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
+| [Titan Pricebook Deep Product Design](./titan-pricebook-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Business App Idea Generation Process](./business-app-idea-generation-process.md) | Active process | Process Documentation AI workflow | 2026-08-02 |
 
 ## Scope rules
@@ -21,7 +22,6 @@ This folder stores engine-first product research, complete business-application 
 
 ## Planned deeper design files
 
-- `titan-pricebook-deep-design.md`
 - `titan-quotes-deep-design.md`
 - `titan-academy-deep-design.md`
 - `titan-configurator-deep-design.md`
