@@ -11,6 +11,7 @@ This folder stores engine-first product research, complete business-application 
 | [Titan Pricebook Deep Product Design](./titan-pricebook-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Quotes Deep Product Design](./titan-quotes-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Academy Deep Product Design](./titan-academy-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
+| [Titan Configurator Deep Product Design](./titan-configurator-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Business App Idea Generation Process](./business-app-idea-generation-process.md) | Active process | Process Documentation AI workflow | 2026-08-02 |
 
 ## Scope rules
@@ -24,10 +25,10 @@ This folder stores engine-first product research, complete business-application 
 - Specialist applications own only their bounded domains.
 - When Titan Quotes is installed, it owns quote workspaces, immutable versions, approvals and acceptance while WorkCore stores the accepted commercial projection linked to operational work.
 - Titan Academy owns SOPs, learning, assessments, competency decisions and skills passports; WorkCore owns people, jobs and assignments, while Titan Credential Vault will own external licences and statutory documents.
+- Titan Configurator owns source-linked visual projects, editable regions, scenarios, generated states and design decisions; Titan Inspect owns condition evidence, Titan Pricebook owns price resolution, Titan Quotes owns commercial acceptance and WorkCore owns operational delivery.
 
 ## Planned deeper design files
 
-- `titan-configurator-deep-design.md`
 - `titan-property-twin-deep-design.md`
 - `shared-engine-architecture.md`
 
