@@ -7,6 +7,7 @@ This folder stores engine-first product research, complete business-application 
 | Document | Status | Source | Updated |
 |---|---|---|---|
 | [WorkCore Field and Home Service Business App Portfolio](./workcore-business-app-ideas.md) | Designed | `Extensions.zip`, `Marketing.zip` | 2026-08-02 |
+| [Titan Inspect Deep Product Design](./titan-inspect-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Business App Idea Generation Process](./business-app-idea-generation-process.md) | Active process | Process Documentation AI workflow | 2026-08-02 |
 
 ## Scope rules
@@ -16,12 +17,10 @@ This folder stores engine-first product research, complete business-application 
 - Treat isolated capabilities as features or modules until they form a complete application.
 - Every complete app must define its central records, end-to-end workflow, roles, WorkCore integration, security requirements, analytics and AUD pricing.
 - Reuse shared engines rather than copying extension implementations into multiple products.
+- Keep WorkCore as the operational authority for customers, properties, jobs, staff, quotes, invoices and general tasks; specialist apps own only their bounded domains.
 
 ## Planned deeper design files
 
-The next phase can create one focused Markdown file per prioritised application, for example:
-
-- `titan-inspect-deep-design.md`
 - `titan-pricebook-deep-design.md`
 - `titan-quotes-deep-design.md`
 - `titan-academy-deep-design.md`
