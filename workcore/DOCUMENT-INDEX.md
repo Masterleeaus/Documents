@@ -4,8 +4,8 @@ status: Active
 generated: 2026-08-03
 repository: Masterleeaus/Documents
 source_branch: main
-source_commit: 4426c71a07d3b98fce4c045ec3cba22e451df8a8
-document_count: 37
+source_commit: 2bef536887094d9950085b1ba04d4a36ea30512c
+document_count: 38
 scan_method: Repository-backed full-text review with WorkCore and MagicAI source reconciliation
 ---
 
@@ -15,7 +15,7 @@ This index covers the WorkCore product, extension and MagicAI integration docume
 
 Use [`document-index.json`](./document-index.json) for the earlier machine-readable corpus snapshot and [`conversation-engine-corpus-map.md`](./conversation-engine-corpus-map.md) for the consolidated conversation-system analysis.
 
-> **Current integration authority:** Scans 15–19 combine the actual `Masterleeaus/workcore-extensions` packages with the supplied MagicAI 11 host. Scans 01–14 remain component evidence and historical analysis.
+> **Current integration authority:** Scans 15–20 combine the actual `Masterleeaus/workcore-extensions` packages with the supplied MagicAI 11 host. Scans 01–14 remain component evidence and historical analysis.
 
 ## Core navigation and process
 
@@ -87,6 +87,7 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 | [`magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md`](./magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md) | Hardened installation, activation profiles, shell integration and release gates | **Implementation runbook** |
 | [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md) | Critical/high/medium defects across both codebases | **Release blocker authority** |
 | [`magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md`](./magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md) | Reconciliation of Scans 01–14 and source authority rules | **Documentation authority** |
+| [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md) | Parent provider, autoloading, migrations, tenancy, permissions, actions, outbox and MagicAI host runtime | **Parent integration authority** |
 
 ## Topic index
 
@@ -97,6 +98,7 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 3. [`magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md`](./magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md)
 4. [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md)
 5. [`magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md`](./magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md)
+6. [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md)
 
 ### Conversation, messaging and assistants
 
@@ -112,6 +114,7 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 2. [`magicai-integration/06-magicai-teams-companies-and-tenancy.md`](./magicai-integration/06-magicai-teams-companies-and-tenancy.md)
 3. [`magicai-integration/07-magicai-roles-permissions-and-access-control.md`](./magicai-integration/07-magicai-roles-permissions-and-access-control.md)
 4. [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md)
+5. [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md)
 
 ### CRM, operations and operational finance
 
