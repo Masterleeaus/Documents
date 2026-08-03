@@ -6,6 +6,8 @@ This folder stores engine-first product research, complete business-application 
 
 | Document | Status | Source | Updated |
 |---|---|---|---|
+| [Document Corpus Index](./DOCUMENT-INDEX.md) | Active full-text index | Every Markdown document on `main` | 2026-08-03 |
+| [Conversation Engine Corpus Map](./conversation-engine-corpus-map.md) | Evidence-backed synthesis | Full `main` document corpus | 2026-08-03 |
 | [WorkCore Field and Home Service Business App Portfolio](./workcore-business-app-ideas.md) | Designed | `Extensions.zip`, `Marketing.zip` | 2026-08-02 |
 | [Titan Inspect Deep Product Design](./titan-inspect-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Pricebook Deep Product Design](./titan-pricebook-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
@@ -13,6 +15,8 @@ This folder stores engine-first product research, complete business-application 
 | [Titan Academy Deep Product Design](./titan-academy-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Titan Configurator Deep Product Design](./titan-configurator-deep-design.md) | Designed and code-grounded | `Extensions.zip` | 2026-08-02 |
 | [Business App Idea Generation Process](./business-app-idea-generation-process.md) | Active process | Process Documentation AI workflow | 2026-08-02 |
+
+Machine-readable corpus metadata is maintained in [`document-index.json`](./document-index.json).
 
 ## Scope rules
 
@@ -31,6 +35,16 @@ This folder stores engine-first product research, complete business-application 
 
 - `titan-property-twin-deep-design.md`
 - `shared-engine-architecture.md`
+- `titan-conversation-engine-deep-design.md`
+
+## Index maintenance
+
+- Add every new Markdown document to `DOCUMENT-INDEX.md` and `document-index.json`.
+- Use repository paths, not scan numbers, as stable identifiers.
+- Update topic mappings when authority, implementation status or primary outcome changes.
+- Preserve historical scans and use reconciliation documents to supersede outdated status statements.
+- Re-run a full corpus read after a major product, integration or shared-engine addition.
+- Record cross-document conflicts explicitly instead of silently selecting one version.
 
 ## Status vocabulary
 
