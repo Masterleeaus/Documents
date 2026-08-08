@@ -1,11 +1,11 @@
 ---
 title: WorkCore Document Corpus Index
 status: Active
-generated: 2026-08-03
+generated: 2026-08-09
 repository: Masterleeaus/Documents
 source_branch: main
-source_commit: 2bef536887094d9950085b1ba04d4a36ea30512c
-document_count: 38
+workcore_source_commit: 64d05e1a7a1071bf61c1f252d359fbd712da39f5
+document_count: 39
 scan_method: Repository-backed full-text review with WorkCore and MagicAI source reconciliation
 ---
 
@@ -15,7 +15,7 @@ This index covers the WorkCore product, extension and MagicAI integration docume
 
 Use [`document-index.json`](./document-index.json) for the earlier machine-readable corpus snapshot and [`conversation-engine-corpus-map.md`](./conversation-engine-corpus-map.md) for the consolidated conversation-system analysis.
 
-> **Current integration authority:** Scans 15–20 combine the actual `Masterleeaus/workcore-extensions` packages with the supplied MagicAI 11 host. Scans 01–14 remain component evidence and historical analysis.
+> **Current integration authority:** Scans 15–21 combine the actual `Masterleeaus/workcore-extensions` packages with the supplied MagicAI 11 host. Scan 21 uses current WorkCore `main` commit `64d05e1a7a1071bf61c1f252d359fbd712da39f5` and supersedes stale open-defect statements in Scans 13, 18 and 20 where explicitly identified. Scans 01–14 remain component evidence and historical analysis.
 
 ## Core navigation and process
 
@@ -64,17 +64,17 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 | [`magicai-integration/01-magicai-complete-system-inventory.md`](./magicai-integration/01-magicai-complete-system-inventory.md) | MagicAI host inventory and initial authority split | Retained |
 | [`magicai-integration/02-magicai-bootstrap-and-runtime-architecture.md`](./magicai-integration/02-magicai-bootstrap-and-runtime-architecture.md) | Bootstrap, providers, queues, middleware and routes | Retained; provider recommendation revised by Scan 15 |
 | [`magicai-integration/03-magicai-extension-marketplace-runtime.md`](./magicai-integration/03-magicai-extension-marketplace-runtime.md) | Installation, integrity, migrations, upgrades and uninstall | Retained; package shape revised by Scans 15–18 |
-| [`magicai-integration/04-magicai-menu-navigation-and-dashboard-hooks.md`](./magicai-integration/04-magicai-menu-navigation-and-dashboard-hooks.md) | Menus, dashboards, Titan Flow and field shell | Retained |
-| [`magicai-integration/05-magicai-authentication-and-user-identity.md`](./magicai-integration/05-magicai-authentication-and-user-identity.md) | Authentication and durable actors | Retained; Passport bridge required |
+| [`magicai-integration/04-magicai-menu-navigation-and-dashboard-hooks.md`](./magicai-integration/04-magicai-menu-navigation-and-dashboard-hooks.md) | Menus, dashboards, Titan Flow and field shell | Retained; native WorkCore navigation now implemented structurally in Scan 21 |
+| [`magicai-integration/05-magicai-authentication-and-user-identity.md`](./magicai-integration/05-magicai-authentication-and-user-identity.md) | Authentication and durable actors | Retained; native WorkCore Passport bridge now partly implemented |
 | [`magicai-integration/06-magicai-teams-companies-and-tenancy.md`](./magicai-integration/06-magicai-teams-companies-and-tenancy.md) | Company, membership, branch and territory tenancy | Retained; WorkCore parent is operational authority |
-| [`magicai-integration/07-magicai-roles-permissions-and-access-control.md`](./magicai-integration/07-magicai-roles-permissions-and-access-control.md) | Entitlements, permissions, approvals and tools | Retained; repository defect recorded in Scan 18 |
-| [`magicai-integration/08-magicai-plans-subscriptions-credits-and-billing.md`](./magicai-integration/08-magicai-plans-subscriptions-credits-and-billing.md) | Plans, credits, SaaS billing and Finance boundary | Retained |
+| [`magicai-integration/07-magicai-roles-permissions-and-access-control.md`](./magicai-integration/07-magicai-roles-permissions-and-access-control.md) | Entitlements, permissions, approvals and tools | Retained; P0 permission/confirmation issues resolved by current WorkCore main |
+| [`magicai-integration/08-magicai-plans-subscriptions-credits-and-billing.md`](./magicai-integration/08-magicai-plans-subscriptions-credits-and-billing.md) | Plans, credits, SaaS billing and Finance boundary | Retained; current entitlement projection added in Scan 21 |
 | [`magicai-integration/09-magicai-crm-host-contract.md`](./magicai-integration/09-magicai-crm-host-contract.md) | CRM host contract and migration boundary | Retained; Business Network is final CRM authority |
 | [`magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md`](./magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md) | Sales host contract and operational Finance authority | Retained; Commercial is implementation authority |
 | [`magicai-integration/12-magicai-workcore-native-extension-reconciliation-rescan.md`](./magicai-integration/12-magicai-workcore-native-extension-reconciliation-rescan.md) | Native package implementation and CRM replacement status | Repository-backed precursor |
 | [`magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md`](./magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md) | Capture, consent, conversion and service lifecycle | Retained |
-| [`magicai-integration/13-magicai-ai-providers-and-model-routing.md`](./magicai-integration/13-magicai-ai-providers-and-model-routing.md) | Provider routing, credentials, privacy and budgets | Retained; WorkCore AI adapter work added in Scans 15–18 |
-| [`magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md`](./magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md) | AI Chat runtime and WorkCore context/tool hooks | Retained; combined authority in Scans 15–16 |
+| [`magicai-integration/13-magicai-ai-providers-and-model-routing.md`](./magicai-integration/13-magicai-ai-providers-and-model-routing.md) | Provider routing, credentials, privacy and budgets | Retained; WorkCore AI reachability/config conclusions revised by Scan 21 |
+| [`magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md`](./magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md) | AI Chat runtime and WorkCore context/tool hooks | Retained; combined authority in Scans 15–21 |
 
 > Two documents carry scan number 12. Repository paths, not scan numbers, are stable identifiers.
 
@@ -85,9 +85,10 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 | [`magicai-integration/15-workcore-magicai-combined-integration-architecture.md`](./magicai-integration/15-workcore-magicai-combined-integration-architecture.md) | Full host/extension topology, authority split, adapters and definition of done | **Primary architecture** |
 | [`magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md`](./magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md) | Exact contract for all six WorkCore extensions and MagicAI | **Primary package mapping** |
 | [`magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md`](./magicai-integration/17-workcore-magicai-install-activation-and-release-plan.md) | Hardened installation, activation profiles, shell integration and release gates | **Implementation runbook** |
-| [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md) | Critical/high/medium defects across both codebases | **Release blocker authority** |
+| [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md) | Critical/high/medium defects across both codebases | Historical blocker snapshot; **read with Scan 21 current-main corrections** |
 | [`magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md`](./magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md) | Reconciliation of Scans 01–14 and source authority rules | **Documentation authority** |
-| [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md) | Parent provider, autoloading, migrations, tenancy, permissions, actions, outbox and MagicAI host runtime | **Parent integration authority** |
+| [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md) | Parent provider, autoloading, migrations, tenancy, permissions, actions, outbox and MagicAI host runtime | Historical parent snapshot at `e56389a`; **P0 revisions in Scan 21** |
+| [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md) | Current-main Business Network CRM, catalogue, support, knowledge, reviews, territories, intelligence, wizards, AI, entitlements and native workspaces | **Current CRM/front-office integration authority** |
 
 ## Topic index
 
@@ -99,36 +100,39 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 4. [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md)
 5. [`magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md`](./magicai-integration/19-workcore-magicai-document-reconciliation-and-source-authority.md)
 6. [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md)
+7. [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md)
 
 ### Conversation, messaging and assistants
 
 1. [`reports/2026-08-02-titan-zero-aichatpro-chatbot-agents-deep-scan.md`](./reports/2026-08-02-titan-zero-aichatpro-chatbot-agents-deep-scan.md)
 2. [`magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md`](./magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md)
-3. [`magicai-integration/09-magicai-crm-host-contract.md`](./magicai-integration/09-magicai-crm-host-contract.md)
-4. [`magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md`](./magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md)
-5. [`conversation-engine-corpus-map.md`](./conversation-engine-corpus-map.md)
+3. [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md)
+4. [`magicai-integration/09-magicai-crm-host-contract.md`](./magicai-integration/09-magicai-crm-host-contract.md)
+5. [`magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md`](./magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md)
+6. [`conversation-engine-corpus-map.md`](./conversation-engine-corpus-map.md)
 
 ### Identity, tenancy and permissions
 
 1. [`magicai-integration/05-magicai-authentication-and-user-identity.md`](./magicai-integration/05-magicai-authentication-and-user-identity.md)
 2. [`magicai-integration/06-magicai-teams-companies-and-tenancy.md`](./magicai-integration/06-magicai-teams-companies-and-tenancy.md)
 3. [`magicai-integration/07-magicai-roles-permissions-and-access-control.md`](./magicai-integration/07-magicai-roles-permissions-and-access-control.md)
-4. [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md)
-5. [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md)
+4. [`magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md`](./magicai-integration/20-workcore-parent-extension-and-magicai-runtime-deep-scan.md)
+5. [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md)
 
 ### CRM, operations and operational finance
 
-1. [`magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md`](./magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md)
-2. [`magicai-integration/09-magicai-crm-host-contract.md`](./magicai-integration/09-magicai-crm-host-contract.md)
-3. [`magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md`](./magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md)
-4. [`magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md`](./magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md)
+1. [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md)
+2. [`magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md`](./magicai-integration/16-workcore-extension-by-extension-magicai-contracts.md)
+3. [`magicai-integration/09-magicai-crm-host-contract.md`](./magicai-integration/09-magicai-crm-host-contract.md)
+4. [`magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md`](./magicai-integration/11-magicai-sales-estimates-invoices-and-payments.md)
+5. [`magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md`](./magicai-integration/12-magicai-customer-lifecycle-and-workcore-conversion.md)
 
 ### Model routing, privacy and AI execution
 
 1. [`magicai-integration/13-magicai-ai-providers-and-model-routing.md`](./magicai-integration/13-magicai-ai-providers-and-model-routing.md)
 2. [`magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md`](./magicai-integration/14-magicai-ai-chat-runtime-and-context-hooks.md)
-3. [`magicai-integration/15-workcore-magicai-combined-integration-architecture.md`](./magicai-integration/15-workcore-magicai-combined-integration-architecture.md)
-4. [`magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md`](./magicai-integration/18-workcore-magicai-confirmed-blockers-and-remediation.md)
+3. [`magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md`](./magicai-integration/21-workcore-business-network-and-magicai-integration-deep-scan.md)
+4. [`magicai-integration/15-workcore-magicai-combined-integration-architecture.md`](./magicai-integration/15-workcore-magicai-combined-integration-architecture.md)
 
 ## Maintenance rules
 
@@ -137,4 +141,5 @@ Use [`document-index.json`](./document-index.json) for the earlier machine-reada
 3. Preserve timestamped scans and use reconciliation documents to supersede outdated implementation claims.
 4. Every future integration scan must inspect MagicAI, the relevant WorkCore extension and the adapter boundary.
 5. Record cross-document conflicts explicitly.
-6. Re-run the corpus index after major product, integration or shared-engine additions.
+6. When WorkCore `main` changes materially, later current-main scans supersede stale open-defect statements in older commit-pinned reports.
+7. Re-run the corpus index after major product, integration or shared-engine additions.
