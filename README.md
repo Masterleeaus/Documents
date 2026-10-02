@@ -1,3 +1,5 @@
+![Titan Product Documentation Archive — ARCHITECTURE · RESEARCH · SOURCE RECORDS](docs/images/portfolio-banner.svg)
+
 <div align="center">
 
 # Titan Product Documentation Archive
