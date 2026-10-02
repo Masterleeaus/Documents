@@ -27,4 +27,5 @@ Treat documents as design evidence, not as proof that a feature is implemented o
 
 ## Banner
 
-No verified project-specific banner was found in the archive; this README uses a typographic header.
+A checked-in project-specific banner is displayed above.
+
