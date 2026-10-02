@@ -1,6 +1,6 @@
 <div align="center">
 
-# Titan Documentation Archive
+# Titan Product Documentation Archive
 
 **Product research, architecture notes, and WorkCore/Titan Zero design records.**
 
