@@ -8,6 +8,13 @@
 
 </div>
 
+## Product architecture and engineering highlights
+
+A structured archive of Titan and WorkCore product research, architecture decisions, design records, and source references.
+
+- **Architecture:** Curated WorkCore documentation is indexed by a corpus catalogue, while bundled TitanDocs material is kept as a separate source archive for traceable discovery.
+- **Distinctive engineering:** The distinctive value is navigable design history: readers can locate concepts and follow their documented status without mistaking a specification for implemented software.
+
 ## Contents
 
 This repository preserves two types of material:
